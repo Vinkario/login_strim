@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container{
+    padding: 50px;
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+}
+
+.header-container ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.header-container ul li a{
+    text-decoration: none;
+    color: #0F62FE;
+}
+
+.title-container{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.title-container h1{
+    font-size: 48px;
+}
+
+.title-container h3{
+    font-size: 24px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.input input{
+    width: 280px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 5px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.password{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password input{
+    border: none;
+
+}
+
+
+.checkbox{
+    margin-top: 38px;
+    display: flex;
+    gap: 7px;
+}
+
+.btn-login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.btn-login button{
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color:#0043CE ;
+    color: #Fff;
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
+
+.btn-login a{
+    margin-top: 25px;
+    font-size: 14px;
+    color: #D93F21;
+    text-align: center;
+    text-decoration: none;
+}
+
+#icon{
+    background: url('../images/hidden.png');
+    background-size: cover;
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
+
+#icon.hide{
+    background: url('../images/show.png');
+    background-size: cover;
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
